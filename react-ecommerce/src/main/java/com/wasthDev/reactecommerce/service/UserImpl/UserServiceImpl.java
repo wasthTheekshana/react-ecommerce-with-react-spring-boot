@@ -4,9 +4,10 @@ import com.wasthDev.reactecommerce.model.User;
 import com.wasthDev.reactecommerce.repository.UserRepository;
 import com.wasthDev.reactecommerce.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
-
+@Service
 public class UserServiceImpl implements UserService {
     final
     UserRepository userRepository;
